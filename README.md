@@ -21,20 +21,20 @@
 ├── README.upstream.md
 ├── SKILL.md
 ├── scripts/
-├── fixture_adapter.py
-├── production_tool.py
-├── provider_adapters.py
-└── selftest.py
+│   ├── fixture_adapter.py
+│   ├── production_tool.py
+│   ├── provider_adapters.py
+│   └── selftest.py
 ├── references/
-├── adapter-contract.md
-└── providers/
-├── gpt-image-2.md
-├── minimax-h3-video.md
-├── minimax-music.md
-├── minimax-speech.md
-└── seedance.md
+│   ├── adapter-contract.md
+│   └── providers/
+│       ├── gpt-image-2.md
+│       ├── minimax-h3-video.md
+│       ├── minimax-music.md
+│       ├── minimax-speech.md
+│       └── seedance.md
 └── agents/
-└── openai.yaml
+    └── openai.yaml
 ```
 
 - `SKILL.md` 是技能入口（触发条件 / 工作流 / 约束），安装时必须位于技能根目录。
