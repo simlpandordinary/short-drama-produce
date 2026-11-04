@@ -17,13 +17,30 @@
 ## 目录结构
 
 ```
-['SKILL.md', 'agents/openai.yaml', 'references/adapter-contract.md', 'references/providers/gpt-image-2.md', 'references/providers/minimax-h3-video.md', 'references/providers/minimax-music.md', 'references/providers/minimax-speech.md', 'references/providers/seedance.md', 'scripts/fixture_adapter.py', 'scripts/production_tool.py', 'scripts/provider_adapters.py', 'scripts/selftest.py', 'LICENSE', 'README.upstream.md']
+├── LICENSE
+├── README.upstream.md
+├── SKILL.md
+├── scripts/
+├── fixture_adapter.py
+├── production_tool.py
+├── provider_adapters.py
+└── selftest.py
+├── references/
+├── adapter-contract.md
+└── providers/
+├── gpt-image-2.md
+├── minimax-h3-video.md
+├── minimax-music.md
+├── minimax-speech.md
+└── seedance.md
+└── agents/
+└── openai.yaml
 ```
 
 - `SKILL.md` 是技能入口（触发条件 / 工作流 / 约束），安装时必须位于技能根目录。
 - `references/`、`scripts/`、`assets/` 为该技能自带的参考文档、脚本与素材。
 - `README.upstream.md` 为上游仓库原始说明，保留出处与版权信息。
-- `LICENSE` 为上游许可证原文。
+- `LICENSE` 为上游许可证原件。
 
 ## 安装
 
@@ -36,8 +53,6 @@ git clone https://github.com/simlpandordinary/short-drama-produce.git ~/.workbud
 也可以直接对 AI 说：「把 <https://github.com/simlpandordinary/short-drama-produce> 装成 Skill」。
 
 安装后用自然语言触发，例如「Drama Skills · short-drama-produce」「用 short-drama-produce 帮我处理这个任务」。
-
-本仓库仅含 Drama Skills 技能包中的 `short-drama` 家族技能之一，其余 10 个技能各自独立成仓。
 
 ## 版权
 
